@@ -70,7 +70,7 @@ If you find an app that solves your pain point, then celebrate and use that app!
 
 No luck? Keep scouring.
 
-### Search on ChatGPT or Perplexity
+### Search on ChatGPT, Claude, or Perplexity
 
 Visit [ChatGPT.com](http://chatgpt.com/) or [Perplexity.io](http://perplexity.io/). Both of these use artificial intelligence to help you search and find the right information fast.
 
