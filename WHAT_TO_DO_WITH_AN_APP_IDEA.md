@@ -56,7 +56,7 @@ faith.tools is the largest directory of apps, tools, and digital services for Ch
 
 Visit [faith.tools](https://faith.tools/) and look in the available 50+ app categories. Your app idea will most likely fit in one of those categories. Click on the category that seems most relevant, and then look through the list of available apps to see if there's an app there that be a good solution for you.
 
-Rinse and repeat by going to the next relevant category. And, if that doesn't work, search for a related keyword in the [faith.tools](http://faith.tools/) search input. And, if that doesn't work, try the new [faith.tools AI search](https://go.faith.tools/ai-search) ✨ _(beta and imperfect)_.
+Rinse and repeat by going to the next relevant category. And, if that doesn't work, use the search button in the top right corner of [faith.tools](http://faith.tools/).
 
 If you find an app that solves your pain point, then celebrate and use that app!
 
