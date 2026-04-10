@@ -104,7 +104,7 @@ Side note: if you're on the receiving end of a contact or request like this, con
 
 Without synergy, we end up creating apps, websites, tools, and services in silos, feeling alone and having to figure out all this stuff by ourselves.
 
-Ask, ["am I open-handed?"](/posts/being-open-handed)
+Ask, ["am I open-handed?"](/AM_I_OPEN_HANDED.md)
 
 I see a better, stronger future where we as followers of Jesus who create digital experiences would lay down any walls of competition from another brother or sister in Christ and instead embrace one another through synergetic collaboration.
 
@@ -142,7 +142,7 @@ When we hear the stories of those doing similar ventures as us, how they partere
 
 And, when you have your app or tool in a place that's ready to be delivered to Christians around the world, share it on faith.tools, the best place to discover and distribute apps for Christians.
 
-[Add app to faith.tools](/posts/selection-criteria)
+[Add app to faith.tools](https://faith.tools/posts/selection-criteria)
 
 **So, you have an app idea for Christians? Do these things first:**
 
