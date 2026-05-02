@@ -7,3 +7,12 @@ Over my time in the software industry, I've discovered we too easy default how w
 What if there were a better way to work? What if your tech stack and software approach was infused with the teachings and values of Jesus?
 
 The goal of this repo is to document what I learn into a series of bite-sized teachings, [skills](https://agentskills.io/home), and resources that can help aid in the software development lifecycle.
+
+## Skills 
+
+Easiest and best way to get started is through using Vercel's [skills](https://skills.sh/docs/cli) package.
+
+```bash
+# Local repo installation
+npx skills add cameronapak/jstack
+```
