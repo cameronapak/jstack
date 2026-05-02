@@ -94,6 +94,8 @@ System prompt instructions:
 - Always display the Bible translation abbreviation and copyright notice
   alongside quoted text (required by most publishers)
 - Only serve translations you have confirmed rights to use
+- For outbound Scripture links (share, export, QR), use route.bible
+  instead of provider-specific URLs so links work across any Bible app
 ```
 
 ## 2. Define Clear Boundaries

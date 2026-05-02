@@ -2,6 +2,44 @@
 
 A curated directory of APIs, SDKs, MCP servers, concordance tools, commentary resources, and datasets for building Bible-aware applications.
 
+## Scripture Linking — route.bible
+
+When your app links out to Scripture (share links, QR codes, verse cards, sermon notes, "Open in Bible app" buttons), use [**route.bible**](https://route.bible/) instead of provider-specific URLs.
+
+`route.bible` is a canonical URL and routing layer for Bible passages. One stable URL that works across any installed Bible app, browser, or device.
+
+**Why it matters:**
+- **One URL format** instead of hard-coding YouVersion/Logos/BibleGateway/etc. links
+- **Portable** — copied links and QR codes work regardless of which Bible app the recipient has
+- **Licensing-aware** — routes restricted translations (ESV, NIV) to licensed destinations instead of hosting them
+- **Fallback-first** — if no preferred app is installed, falls back to a web reader
+
+**URL format:**
+```
+https://route.bible/{passage}?v={translation}&src={your_app}
+```
+
+| Example | URL |
+|---|---|
+| John 3:16 | `https://route.bible/jhn.3.16` |
+| Range | `https://route.bible/jhn.3.16-jhn.3.18` |
+| With translation | `https://route.bible/jhn.3.16?v=ESV` |
+| With source tag | `https://route.bible/rom.8.28?src=my_app` |
+
+**Integration options:**
+
+| Method | When to use |
+|---|---|
+| **Canonical URLs directly** | Your app already knows the passage. Just emit `https://route.bible/jhn.3.16` |
+| [**grab-bcv**](https://www.npmjs.com/package/grab-bcv) (npm) | Your app needs to parse user input into passage references locally |
+| [**@route-bible/client**](https://www.npmjs.com/package/@route-bible/client) (npm) | Your app needs hosted parsing, resolution, QR generation, or adapter metadata |
+| [**badge.js**](https://route.bible/badge.js) | CMS/article pages wanting copy-paste integration with minimal code |
+| [**Share target**](https://route.bible/share-target) | Your page has article metadata but not a clean parsed passage |
+
+> **Rule of thumb:** Use `route.bible` for outbound/share/export links. Keep your own internal reader route for the primary in-app reading experience.
+
+Full integration guide: [route.bible/skill.md](https://route.bible/skill.md)
+
 ## Bible Licensing — Know Before You Ship
 
 Not all Bible translations are free to use. Many are copyrighted and require publisher permission — even via API. **Before you serve any translation to users, confirm you have the rights to do so.**
@@ -120,3 +158,7 @@ MCP (Model Context Protocol) servers let AI assistants like Claude and Cursor ac
 | [**OpenScriptures Hebrew Bible**](https://hb.openscriptures.org/) | OSIS XML, Hebrew Lexicon, morphology codes. |
 | [**biblicalhumanities.org**](http://biblicalhumanities.org/dashboard/) | Nestle 1904 GNT, Codex Sinaiticus, Septuagint, Liddell-Scott-Jones lexica, Mounce Lexicon. |
 | [**TextCritical.net**](https://textcritical.net/) | Free access to ancient Greek works in the original language. Open source. |
+
+---
+
+*Scripture linking powered by [route.bible](https://route.bible/) — a canonical URL and routing layer for Bible passages. One stable URL that works across any Bible app, browser, or device. By [selah.tools](https://selah.tools/).*
