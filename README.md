@@ -8,6 +8,13 @@ What if there were a better way to work? What if your tech stack and software ap
 
 The goal of this repo is to document what I learn into a series of bite-sized teachings, [skills](https://agentskills.io/home), and resources that can help aid in the software development lifecycle.
 
+## AI Bible Bot Prompts
+
+Here are some free and open-source AI Bible prompts for LLMs like ChatGPT, Claude, or your favorite agent. 
+
+1. [Christian discipleship AI prompt](./prompts/christian-discipleship-ai-prompt.md)
+2. [Christian discipleship AI prompt (compact)](./prompts/christian-discipleship-ai-prompt-compact.md)
+
 ## Skills 
 
 Easiest and best way to get started is through using Vercel's [skills](https://skills.sh/docs/cli) package.
