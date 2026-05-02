@@ -12,6 +12,30 @@ Don't rely on what the LLM "remembers" from training data about the Bible. Give 
 
 **The principle:** *"Don't rely on LLMs to quote things with 100% accuracy b/c you don't know what they were trained on exactly. Just give them the information they need via RAG in real-time."* — Jake Carlson, Apologist
 
+### Bible Licensing — Get Permission First
+
+Not all Bible translations are free to use. Many are copyrighted and require publisher permission — even via API. **Before you serve any translation to users, confirm you have the rights to do so.**
+
+**Public domain (no permission needed):**
+- **Berean Standard Bible (BSB)** — [dedicated to public domain](https://berean.bible/terms.htm) (CC0) as of April 30, 2023. All uses freely permitted, including commercial.
+- **King James Version (KJV)** — public domain in the US and most countries. **Exception:** In the UK, the KJV is under Crown copyright (Royal Prerogative) and printing it requires permission from the Crown's printer. ([source](https://commonplacefacts.com/2026/01/18/is-the-king-james-bible-copyrighted/))
+- **World English Bible (WEB)** — public domain. ("World English Bible" is a trademark of eBible.org, but the text itself is unrestricted.)
+- **American Standard Version (ASV, 1901)** — public domain worldwide.
+- **Strong's Concordance data** — published 1890, public domain.
+
+**Free for non-commercial (permission required for commercial use):**
+- **NET Bible** — copyrighted by Biblical Studies Press, L.L.C. Free to quote for non-commercial use with attribution. **Commercial use requires permission from [HarperCollins Christian Publishing](https://www.harpercollinschristian.com/sales-and-rights/licensing/).** ([full terms](https://netbible.com/copyright/))
+
+**Requires publisher permission (for any use beyond limited quoting):**
+- **English Standard Version (ESV)** — copyrighted by Crossway. Free to quote up to 500 verses non-commercial with attribution. Beyond that or for commercial use, [request permission](https://www.crossway.org/permissions/).
+- **New International Version (NIV)** — copyrighted by Biblica (formerly IBS). Free to quote up to 500 verses non-commercial with attribution. Commercial use or full-text requires [written permission](https://www.biblica.com/permissions/).
+- **New Living Translation (NLT)** — copyrighted by Tyndale House Foundation. [Permission required](http://api.nlt.to/) for commercial use.
+- **New American Standard Bible (NASB)** — copyrighted by The Lockman Foundation. [Permission to quote form](https://www.lockman.org/permission-to-quote-request-form/) required for use beyond limited quoting.
+- **Christian Standard Bible (CSB)** — copyrighted by Holman Bible Publishers (B&H Publishing Group). [Permission required](https://csbible.com/permissions/).
+- **The Message (MSG)** — copyrighted by Eugene H. Peterson / NavPress Publishing Group. Written permission required. ([terms](https://biblia.com/books/message/article/COPY))
+
+Many APIs handle licensing on their end (e.g., API.Bible, YouVersion), but if you're self-hosting Bible text or using it commercially, **you must secure your own license**. Check each translation's copyright page. When in doubt, stick with public domain translations or use an API that handles licensing for you.
+
 ### Bible APIs
 
 | API | Details |
@@ -34,8 +58,7 @@ MCP (Model Context Protocol) servers let AI assistants like Claude and Cursor ac
 
 | Server | Details |
 |---|---|
-| [**Bible MCP**](https://bible-mcp.faith.tools/) | Open-source MCP server using the Free Use Bible API. Hosted endpoint: `https://bible-mcp.faith.tools/mcp`. 97/100 quality on Smithery, 99.7% uptime. [Source on Val.Town](https://www.val.town/x/cameronpak/bible-mcp). |
-| [**geosp/mcp-bible**](https://github.com/geosp/mcp-bible) | Python MCP server via BibleGateway. ESV/NIV/KJV/NASB/NKJV/NLT/AMP/MSG. Supports stdio, HTTP MCP, and REST modes. |
+| [**Bible MCP**](https://bible-mcp.faith.tools/) | Open-source MCP server using the Free Use Bible API. Hosted endpoint: `https://bible-mcp.faith.tools/mcp`. [Source on Val.Town](https://www.val.town/x/cameronpak/bible-mcp). |
 | [**AdbC99/ai-bible**](https://github.com/AdbC99/ai-bible) | JavaScript MCP server + OpenAI completions API wrapper. Reliable, reproducible verse lookup. Also at [ai-bible.com](http://ai-bible.com/). |
 
 ### Concordance & Word Study Tools
@@ -68,6 +91,9 @@ System prompt instructions:
 - Always retrieve verses from the Bible API before quoting Scripture
 - Never generate a verse reference or quotation from memory
 - If the Bible API is unavailable, tell the user you can't look up verses right now
+- Always display the Bible translation abbreviation and copyright notice
+  alongside quoted text (required by most publishers)
+- Only serve translations you have confirmed rights to use
 ```
 
 ## 2. Define Clear Boundaries

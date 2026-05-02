@@ -13,6 +13,8 @@ Evaluate Christian AI applications against the 5 unofficial rules for AI apps fo
 
 **If building an AI app:** Read `references/guardrails.md` for implementation guidance on system prompts, boundaries, and identity disclosure.
 
+**For Bible API/SDK/MCP/concordance resources:** Read `references/bible-developer-resources.md` for a curated directory of tools to give your AI real-time access to Scripture.
+
 **For the full philosophy behind the rules:** Read `references/five-rules.md`.
 
 ## The 5 Unofficial Rules
