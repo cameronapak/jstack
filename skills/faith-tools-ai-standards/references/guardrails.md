@@ -18,7 +18,7 @@ Don't rely on what the LLM "remembers" from training data about the Bible. Give 
 |---|---|
 | [**Free Use Bible API**](https://bible.helloao.org/docs/) | 1,000+ translations. Free, no API keys, no limits, JSON. Also has commentary endpoints. By AO Lab. |
 | [**API.Bible**](https://scripture.api.bible/) | 2,500 versions, 1,600 languages. By American Bible Society. Free for non-commercial use. |
-| [**YouVersion Platform**](https://developers.youversion.com/api) | Full Bible API — passages, books, chapters, verses. Requires app key. |
+| [**YouVersion Platform**](https://developers.youversion.com/api) | Full Bible API — passages, books, chapters, verses. Requires app key. For non-commercial use. |
 | [**bible-api.com**](https://bible-api.com/) | Simple JSON API for public domain Bibles (WEB, KJV, etc). Free, rate-limited. |
 | [**ESV API**](https://api.esv.org/) | English Standard Version. Free for non-commercial. HTML/text/XML. |
 | [**NET Bible API**](https://labs.bible.org/api_web_service) | Free for non-commercial. HTML/JSON/XML. |
