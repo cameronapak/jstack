@@ -10,13 +10,57 @@ AI is a computation — a deterministic function underneath the probabilistic ou
 
 Don't rely on what the LLM "remembers" from training data about the Bible. Give it the actual text in real time.
 
-**Practical tools:**
-- **Bible API** — Serve Scripture directly to the AI so it never guesses a verse reference
-- **Bible MCP server** — Let the AI query Scripture programmatically rather than recalling from training
-- **Concordance tool** — Strong's numbers, word studies, cross-references
-- **Commentary access** — Trusted, orthodox commentaries (not random internet sources)
-
 **The principle:** *"Don't rely on LLMs to quote things with 100% accuracy b/c you don't know what they were trained on exactly. Just give them the information they need via RAG in real-time."* — Jake Carlson, Apologist
+
+### Bible APIs
+
+| API | Details |
+|---|---|
+| [**Free Use Bible API**](https://bible.helloao.org/docs/) | 1,000+ translations. Free, no API keys, no limits, JSON. Also has commentary endpoints. By AO Lab. |
+| [**API.Bible**](https://scripture.api.bible/) | 2,500 versions, 1,600 languages. By American Bible Society. Free for non-commercial use. |
+| [**YouVersion Platform**](https://developers.youversion.com/api) | Full Bible API — passages, books, chapters, verses. Requires app key. |
+| [**bible-api.com**](https://bible-api.com/) | Simple JSON API for public domain Bibles (WEB, KJV, etc). Free, rate-limited. |
+| [**ESV API**](https://api.esv.org/) | English Standard Version. Free for non-commercial. HTML/text/XML. |
+| [**NET Bible API**](https://labs.bible.org/api_web_service) | Free for non-commercial. HTML/JSON/XML. |
+| [**NLT API**](http://api.nlt.to/) | New Living Translation. Free for non-commercial (Tyndale). |
+| [**Bible Brain API**](https://www.faithcomesbyhearing.com/audio-bible-resources/bible-brain) | 1,700+ languages with text, audio, and video. Free. By Faith Comes By Hearing. |
+| [**BibleSDK**](https://biblesdk.com/) | NET Bible text + Strong's concordance + AI-powered semantic search. REST API + TypeScript SDK. |
+| [**Aquifer Bible**](https://www.aquifer.bible/) | Open-source, multilingual, multimodal Bible resources for global translation. Requires API key. |
+| [**Christian Context API**](https://www.getcontext.xyz/developers.php) | 3,752 verses + 1,790 sermon videos + 206 commentaries, all cross-referenced. Free. |
+
+### Bible MCP Servers
+
+MCP (Model Context Protocol) servers let AI assistants like Claude and Cursor access Scripture directly without hallucinating.
+
+| Server | Details |
+|---|---|
+| [**Bible MCP**](https://bible-mcp.faith.tools/) | Open-source MCP server using the Free Use Bible API. Hosted endpoint: `https://bible-mcp.faith.tools/mcp`. 97/100 quality on Smithery, 99.7% uptime. [Source on Val.Town](https://www.val.town/x/cameronpak/bible-mcp). |
+| [**geosp/mcp-bible**](https://github.com/geosp/mcp-bible) | Python MCP server via BibleGateway. ESV/NIV/KJV/NASB/NKJV/NLT/AMP/MSG. Supports stdio, HTTP MCP, and REST modes. |
+| [**AdbC99/ai-bible**](https://github.com/AdbC99/ai-bible) | JavaScript MCP server + OpenAI completions API wrapper. Reliable, reproducible verse lookup. Also at [ai-bible.com](http://ai-bible.com/). |
+
+### Concordance & Word Study Tools
+
+| Tool | Details |
+|---|---|
+| [**BibleSDK**](https://biblesdk.com/) | Strong's numbers, original language definitions, transliterations via REST API. |
+| [**STEPBible Data**](https://github.com/tyndale/STEPBible-Data) | CC BY 4.0. Extended Strongs for Hebrew/Greek, morphological tags, lexicons, proper names, cross-references. |
+| [**Blue Letter Bible**](https://www.blueletterbible.org/) | Free online Strong's concordance, lexicons, word tools. Has [ScriptTagger web tool](https://www.blueletterbible.org/webtools/getPlugin.cfm) for auto-linking Bible refs. |
+| [**OpenScriptures Hebrew Bible**](https://hb.openscriptures.org/) | OSIS XML, Hebrew Lexicon, morphology codes. Open source. |
+| [**morphgnt**](https://github.com/morphgnt) | Linguistic databases + Python tools for the Greek NT. REST API, Strong's Greek Dictionary in XML. |
+
+### Commentary Access
+
+| Resource | Details |
+|---|---|
+| [**Free Use Bible API**](https://bible.helloao.org/docs/) | Includes commentary endpoints alongside translations. |
+| [**Christian Context API**](https://www.getcontext.xyz/developers.php) | Verse-matched commentary from curated sources. |
+| [**Biblia.com API**](http://bibliaapi.com/docs/) | Faithlife/Logos backend. Bible text + commentaries + search. Free. |
+
+### Directories
+
+- [**get.bible Bible Data Sets**](https://get.bible/bible-data-sets/) — The most comprehensive directory of Bible APIs, datasets, XML formats, and public domain texts
+- [**awesome-bible-developer-resources**](https://github.com/biblenerd/awesome-bible-developer-resources) — Curated list of Bible dev tools and resources
+- [**faith.tools For Developers**](https://faith.tools/for-developers) — Christian developer resources directory
 
 **Implementation:**
 ```
@@ -124,7 +168,26 @@ System prompt instructions:
 
 ## Helpful Resources for Builders
 
+### Getting Started
 - [Free prompt for AI Christian chatbots](https://git.new/bible-ai-prompt) — open-source starting point
+- [Bible MCP](https://bible-mcp.faith.tools/) — drop-in MCP server so your AI quotes real Scripture, not hallucinations
+- [Free Use Bible API](https://bible.helloao.org/docs/) — the go-to RAG source for real-time Scripture access (free, no keys)
+
+### Word Study & Original Languages
+- [BibleSDK](https://biblesdk.com/) — Strong's concordance + semantic search in one API (TypeScript SDK available)
+- [STEPBible Data](https://github.com/tyndale/STEPBible-Data) — CC BY 4.0 Greek/Hebrew word study data, lexicons, morphology
+- [Blue Letter Bible](https://www.blueletterbible.org/) — free online Strong's concordance and lexicons
+
+### Directories & Comprehensive Lists
+- [get.bible Bible Data Sets](https://get.bible/bible-data-sets/) — master directory of all Bible APIs, datasets, and formats
+- [awesome-bible-developer-resources](https://github.com/biblenerd/awesome-bible-developer-resources) — curated list of Bible dev tools
+- [faith.tools For Developers](https://faith.tools/for-developers) — Christian developer resources
+
+### Global & Multilingual
+- [Aquifer Bible](https://www.aquifer.bible/) — open-source, multilingual Bible resources for global translation
+- [Bible Brain API](https://www.faithcomesbyhearing.com/audio-bible-resources/bible-brain) — 1,700+ languages, text/audio/video
+
+### Ethics & Design
 - [Laws of UX](https://lawsofux.com/) — design excellence honors God
 - [FaithTech Playbook](https://faithtech.com/the-faithtech-playbook/) — building redemptive technology
 - [Redemptive AI Ethics Framework](https://medium.com/@faithtech/redemptive-ai-ethics-framework-e2a2c278569c) — FaithTech (2025)
