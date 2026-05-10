@@ -10,7 +10,7 @@ Key areas:
 
 - `README.md` - human-facing overview and entry points.
 - `prompts/` - copy-ready Christian AI prompts.
-- `skills/` - installable Skills CLI content, including `christian-ai-creator-helper` and `unslop`.
+- `skills/` - installable Skills CLI content, including `christian-ai-creator-helper`, `keep-agents-and-readme-fresh`, and `unslop`.
 - `resources/` - standalone teachings and reference docs.
 
 ## Repository Structure
@@ -29,6 +29,8 @@ Key areas:
     +-- christian-ai-creator-helper/
     |   +-- SKILL.md
     |   +-- references/
+    +-- keep-agents-and-readme-fresh/
+    |   +-- SKILL.md
     +-- unslop/
         +-- SKILL.md
 ```
