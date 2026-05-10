@@ -26,7 +26,7 @@ This repo includes agent skills that package the Jesus-centered software guidanc
 - **christian-ai-creator-helper** - Evaluate, build, and resource Christian AI apps using the faith.tools 5 unofficial rules, guardrail guidance, Bible developer tools, and a 20-question test framework.
 - **unslop** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
 
-Installable skill content lives in `skills/`. Local agent skill copies live in `.agents/skills/`.
+Installable skill content lives in `skills/`.
 
 ```bash
 # Local repo installation

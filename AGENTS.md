@@ -10,7 +10,6 @@ Key areas:
 
 - `README.md` - human-facing overview and entry points.
 - `prompts/` - copy-ready Christian AI prompts.
-- `.agents/skills/` - tracked local agent skill copies, including `christian-ai-creator-helper` and `unslop`.
 - `skills/` - installable Skills CLI content, including `christian-ai-creator-helper` and `unslop`.
 - `resources/` - standalone teachings and reference docs.
 
@@ -19,10 +18,6 @@ Key areas:
 ```text
 .
 +-- README.md
-+-- .agents/
-+|   +-- skills/
-+|       +-- christian-ai-creator-helper/
-+|       +-- unslop/
 +-- prompts/
 |   +-- christian-discipleship-ai-prompt.md
 |   +-- christian-discipleship-ai-prompt-compact.md
@@ -55,8 +50,6 @@ Do not add package managers, lockfiles, build tools, formatters, or test framewo
 - Put reusable prompts in `prompts/`.
 - Put installable skill content in `skills/<skill-name>/SKILL.md`.
 - Put skill support files in `skills/<skill-name>/references/`.
-- Keep matching tracked skill copies in `.agents/skills/<skill-name>/` aligned.
-- Keep `.agents/skills/unslop/SKILL.md` and `skills/unslop/SKILL.md` aligned.
 - Put broader resources in `resources/`.
 - Preserve filenames and links unless asked to rename them.
 
@@ -106,7 +99,7 @@ For prompt and guardrail changes, verify:
 - route.bible is a Scripture linking/routing layer, not a Bible text source.
 - Compact prompt character count stays within the limit.
 
-For skill changes, inspect the relevant `SKILL.md` and references together. Ensure reference paths are relative to the skill directory. If changing a skill with both a `.agents/skills/<skill-name>/` copy and a `skills/<skill-name>/` copy, update both unless divergence is intentional.
+For skill changes, inspect the relevant `SKILL.md` and references together. Ensure reference paths are relative to the skill directory.
 
 ## Style
 
