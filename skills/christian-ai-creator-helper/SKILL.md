@@ -1,6 +1,8 @@
 ---
 name: christian-ai-creator-helper
 description: Evaluate, build, or resource Christian AI applications. Covers the 5 unofficial rules for Christian AI apps, Bible developer resources (APIs, SDKs, MCP servers, concordance, commentary), guardrail implementation, and app testing. Use when building an AI tool for Christians, evaluating whether an AI app meets faith.tools standards, looking for Bible APIs or MCP servers, setting up Christian AI guardrails, or testing Christian AI chatbots.
+metadata:
+  fruit: faithfulness
 ---
 
 # Faith.Tools AI Standards

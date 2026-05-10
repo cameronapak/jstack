@@ -1,6 +1,8 @@
 ---
 name: unslop
 description: Removes AI-generated code slop from a git branch diff. Cuts unnecessary comments, verbose patterns, and redundant code while preserving intent. Invoke when you want to clean up AI-generated code in a branch.
+metadata:
+  fruit: self-control
 ---
 
 # Unslop
