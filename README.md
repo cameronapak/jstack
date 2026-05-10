@@ -33,3 +33,9 @@ Installable skill content lives in `skills/`.
 # Local repo installation
 npx skills add cameronapak/jstack
 ```
+
+## Additional Resources
+
+Here are additional resources that may be helpful. 
+
+- You know when an app looks vibe-coded. What if your agent had skills it needed to design better user interfaces? Consider https://impeccable.style/
