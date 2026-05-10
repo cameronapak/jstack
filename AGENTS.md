@@ -2,17 +2,17 @@
 
 ## Project Overview
 
-`jstack` is a Markdown-first repository for Jesus-centered software development resources, Christian AI standards, reusable agent skills, and LLM prompt templates.
+`jstack` is a Markdown repo for Jesus-centered software resources, Christian AI standards, agent skills, and LLM prompts.
 
-This repo currently contains content only. There is no app runtime, package manager manifest, build system, test runner, database, or CI workflow checked in.
+There is no app runtime, package manifest, build system, test runner, database, or CI workflow.
 
 Key areas:
 
-- `README.md` - human-facing repo overview and entry points.
-- `prompts/` - copy-ready Christian AI prompt templates.
-- `.agents/skills/` - local agent skill packages tracked in this repo, including `christian-ai-creator-helper` and `unslop`.
-- `skills/` - installable Skills CLI package content, currently `christian-ai-creator-helper`.
-- `resources/` - standalone teachings and reference documents, including the faith.tools AI standards source material.
+- `README.md` - human-facing overview and entry points.
+- `prompts/` - copy-ready Christian AI prompts.
+- `.agents/skills/` - tracked local agent skills, including `christian-ai-creator-helper` and `unslop`.
+- `skills/` - installable Skills CLI content, currently `christian-ai-creator-helper`.
+- `resources/` - standalone teachings and reference docs.
 
 ## Repository Structure
 
@@ -38,128 +38,135 @@ Key areas:
 
 ## Setup Commands
 
-No dependency installation is required for normal work in this repo.
+No install is needed for normal work.
 
-- Install this repo's skills locally through the Skills CLI: `npx skills add cameronapak/jstack`
-- Check repository status before editing: `git status --short`
+- Install skills locally: `npx skills add cameronapak/jstack`
+- Check status before edits: `git status --short`
 
-Do not add a package manager, lockfile, build tool, formatter, or test framework unless the user explicitly asks for one.
+Do not add package managers, lockfiles, build tools, formatters, or test frameworks unless asked.
 
 ## Development Workflow
 
 - Edit Markdown directly.
-- Keep human-facing documentation in `README.md` concise.
-- Put agent-specific operational guidance in `AGENTS.md`.
+- Keep human-facing docs in `README.md`.
+- Keep agent guidance in `AGENTS.md`.
 - Put reusable prompts in `prompts/`.
-- Put installable Skills CLI skill content in `skills/<skill-name>/SKILL.md` with supporting files under `skills/<skill-name>/references/`.
-- Keep tracked local agent skill copies in `.agents/skills/<skill-name>/` aligned when they represent the same skill content.
-- Use `.agents/skills/unslop/SKILL.md` for branch-diff cleanup guidance; it is a local skill, not part of the installable `skills/` package.
-- Put broader resource documents in `resources/`.
-- Preserve existing filenames and links unless a rename is requested.
+- Put installable skill content in `skills/<skill-name>/SKILL.md`.
+- Put skill support files in `skills/<skill-name>/references/`.
+- Keep matching tracked skill copies in `.agents/skills/<skill-name>/` aligned.
+- Use `.agents/skills/unslop/SKILL.md` for branch-diff cleanup. It is local, not installable.
+- Put broader resources in `resources/`.
+- Preserve filenames and links unless asked to rename them.
 
 ## Documentation Freshness
 
-Treat the actual repository as the source of truth. If `AGENTS.md` or `README.md` no longer reflects repo reality, update the stale document in the same working change when the correction is an objective fact.
+Repo reality is the source of truth. If `AGENTS.md` or `README.md` becomes false, update it in the same change when the fix is objective.
 
-Objective facts include repo structure, tracked file paths, setup commands, validation commands, runtime/tooling presence, skill/resource/prompt inventory, and documented workflow constraints that the repo now proves true or false.
+Objective facts include repo structure, tracked paths, setup commands, validation commands, runtime/tooling, skill/resource/prompt inventory, and workflow constraints proven by the repo.
 
-- Update this file when it becomes stale about agent-facing repo reality.
-- Update `README.md` when it becomes stale about human-facing repo purpose, entry points, installation, or usage.
+- Update `AGENTS.md` when it is stale about agent-facing repo reality.
+- Update `README.md` when it is stale about human-facing purpose, entry points, install, or use.
 - Ask before changing policy, philosophy, positioning, or workflow intent.
-- If both docs are stale, update both; do not make them mirror each other unless the same fact belongs in both.
-- Do not update docs for temporary, generated, local-only, or unrelated untracked files.
+- If both docs are stale, update both. Do not make them mirror each other unless the same fact belongs in both.
+- Ignore temporary, generated, local-only, and unrelated untracked files.
 - If unrelated user changes make docs look stale, ask before broadening scope.
-- After repo-reality changes, check whether `AGENTS.md` or `README.md` need alignment before finishing.
-- In the final response, briefly mention any `AGENTS.md` or `README.md` freshness updates.
+- After repo-reality changes, check `AGENTS.md` and `README.md` before finishing.
+- In the final response, mention any freshness updates.
 
 ## Validation Commands
 
-Because this is a content repo, validation is mostly structural and link-oriented.
+This repo is content-only. Validate structure and links.
 
 - Show changed files: `git status --short`
 - Review Markdown diffs: `git diff -- '*.md'`
-- Validate compact prompt size: `wc -m prompts/christian-discipleship-ai-prompt-compact.md`
+- Check compact prompt size: `wc -m prompts/christian-discipleship-ai-prompt-compact.md`
 
-The compact prompt should stay under `8000` characters unless the user changes that requirement. A recent target used for route.bible work was under `7500` characters.
+Keep the compact prompt under `8000` characters unless asked otherwise. A recent route.bible target was under `7500` characters.
 
-If adding or editing prompt links, verify the referenced files exist and use relative links from the source document.
+When adding or editing prompt links, verify referenced files exist. Use relative links from the source document.
 
-If editing untracked Markdown files, `git diff -- '*.md'` will not show them. Read the file or use an explicit no-index diff before summarizing changes.
+If editing untracked Markdown, `git diff -- '*.md'` will not show it. Read the file or use an explicit no-index diff before summarizing.
 
 ## Testing Instructions
 
-There is no automated test suite configured.
+There is no automated test suite.
 
-For prompt and guardrail changes, manually verify:
+For prompt and guardrail changes, verify:
 
-- Scripture accuracy rules are preserved.
-- The prompt does not encourage fabricated Bible quotes.
-- AI identity remains clear and non-anthropomorphic.
-- Prayer guardrails remain explicit: AI must not say "I'll pray for you" or "let's pray together"; it may offer wording the user can pray.
-- Human community referrals remain present for prayer, confession, doctrinal questions, loneliness, pastoral care, crisis, abuse, and ongoing discipleship.
-- Doctrinal comparison stays direct when historic orthodox Christianity conflicts with another tradition; do not blur non-Nicene or non-Christian claims into orthodoxy.
-- Avoid vague spiritual or anthropomorphic language such as "my dear friend," "I'm here for you," or claims about "fresh revelation" stirring in the user.
+- Scripture accuracy rules remain.
+- The prompt does not fabricate Bible quotes.
+- AI identity stays clear and non-human.
+- Prayer guardrails remain explicit. AI must not say "I'll pray for you" or "let's pray together." It may offer words the user can pray.
+- Human community referrals remain for prayer, confession, doctrine, loneliness, pastoral care, crisis, abuse, and discipleship.
+- Doctrinal comparison stays direct when historic orthodox Christianity conflicts with another tradition. Do not blur non-Nicene or non-Christian claims into orthodoxy.
+- Avoid vague spiritual or anthropomorphic language, including "my dear friend," "I'm here for you," and claims about "fresh revelation."
 - Crisis, abuse, self-harm, and professional-help boundaries remain intact.
-- route.bible is described as a Scripture linking/routing layer, not a Bible text source.
-- Compact prompt character count remains within the requested limit.
+- route.bible is a Scripture linking/routing layer, not a Bible text source.
+- Compact prompt character count stays within the limit.
 
-For skill changes, inspect the relevant `SKILL.md` and referenced files together. Make sure paths in the skill are correct relative to the skill directory. If changing `christian-ai-creator-helper`, update both `.agents/skills/christian-ai-creator-helper/` and `skills/christian-ai-creator-helper/` unless there is a deliberate reason for them to diverge.
+For skill changes, inspect the relevant `SKILL.md` and references together. Ensure reference paths are relative to the skill directory. If changing `christian-ai-creator-helper`, update both `.agents/skills/christian-ai-creator-helper/` and `skills/christian-ai-creator-helper/` unless divergence is intentional.
 
-## Code Style And Content Guidelines
+## Style
 
 - Use standard Markdown.
 - Prefer concise, direct prose.
-- Use ASCII punctuation unless the surrounding document already uses non-ASCII or the quoted material requires it.
-- Keep headings short and descriptive.
-- Use relative links for repository files, for example `./prompts/example.md` from `README.md`.
-- Do not add generated boilerplate, broad abstractions, or future-proofing that the repo does not need.
-- Do not invent commands, tools, or tests that are not present in the repo.
+- Use ASCII punctuation unless the file already uses non-ASCII or a quote requires it.
+- Keep headings short.
+- Use relative repo links, such as `./prompts/example.md` from `README.md`.
+- Do not add boilerplate, broad abstractions, or future-proofing.
+- Do not invent commands, tools, or tests.
 
 ## Christian AI Standards
 
-When editing Christian AI prompts, skills, or guardrails, preserve these core standards:
+When editing Christian AI prompts, skills, or guardrails, preserve these standards:
 
 - AI output must be biblically accurate.
 - AI output must not fabricate or misrepresent Scripture.
-- AI output must clearly identify as AI, not human.
+- AI output must identify as AI, not human.
 - AI output must not replace human relationships or spiritual practices.
 - AI output must balance grace and truth.
 
-Use `skills/christian-ai-creator-helper/references/test-questions.md` for the 20-question evaluation framework, `skills/christian-ai-creator-helper/references/guardrails.md` for guardrail guidance, `skills/christian-ai-creator-helper/references/five-rules.md` for the philosophy behind the rules, and `skills/christian-ai-creator-helper/references/bible-developer-resources.md` for Bible API, SDK, MCP, concordance, commentary, dataset, and route.bible resources.
+Use these references:
 
-`resources/FAITH_TOOLS_AI_STANDARDS.md` is a standalone resource version of the five rules. It may use a more article-like voice than the skill references; preserve that distinction unless asked to consolidate.
+- `skills/christian-ai-creator-helper/references/test-questions.md` - 20-question evaluation framework.
+- `skills/christian-ai-creator-helper/references/guardrails.md` - guardrail guidance.
+- `skills/christian-ai-creator-helper/references/five-rules.md` - rule philosophy.
+- `skills/christian-ai-creator-helper/references/bible-developer-resources.md` - Bible APIs, SDKs, MCP, concordance, commentary, datasets, and route.bible.
 
-## Prompt Editing Notes
+`resources/FAITH_TOOLS_AI_STANDARDS.md` is the standalone resource version of the five rules. It may sound more article-like than skill references. Preserve that difference unless asked to consolidate.
+
+## Prompt Notes
 
 - Full prompt: `prompts/christian-discipleship-ai-prompt.md`.
 - Compact prompt: `prompts/christian-discipleship-ai-prompt-compact.md`.
-- Keep the full prompt comprehensive and readable.
-- Keep the compact prompt short while preserving the core safety, Scripture, gospel, AI identity, and community boundaries.
-- Use route.bible for portable Scripture reference links when appropriate.
-- Do not treat route.bible as verification for exact Bible text.
-- Prefer verified Bible text sources for exact quotations; otherwise cite references and summarize without claiming exact wording.
-- For outbound/share/export Scripture links, prefer route.bible. For in-app reading, use a licensed or public-domain Bible text source.
-- Bible resource guidance should keep licensing clear: public domain/free-use text is not the same as copyrighted translation access.
-- Key Bible developer resources currently include Free Use Bible API, API.Bible, YouVersion Platform, Bible Brain API, BibleSDK, Bible MCP, STEPBible Data, Aquifer Bible, Christian Context API, Biblia.com API, get.bible, and route.bible.
+- Keep the full prompt readable and complete.
+- Keep the compact prompt short while preserving safety, Scripture, gospel, AI identity, and community boundaries.
+- Use route.bible for portable Scripture reference links when useful.
+- Do not use route.bible to verify exact Bible text.
+- For exact quotes, use verified Bible text sources. Otherwise cite references and summarize.
+- For outbound/share/export Scripture links, prefer route.bible.
+- For in-app reading, use a licensed or public-domain Bible text source.
+- Keep licensing clear: public domain/free-use text is not the same as copyrighted translation access.
+- Key Bible resources: Free Use Bible API, API.Bible, YouVersion Platform, Bible Brain API, BibleSDK, Bible MCP, STEPBible Data, Aquifer Bible, Christian Context API, Biblia.com API, get.bible, route.bible.
 
 ## Security And Safety
 
 - Never commit secrets, credentials, API keys, `.env` files, or private user data.
 - Do not add hidden network calls or dependencies.
-- Be careful with Christian spiritual-care content: do not weaken crisis, abuse, mental-health, or professional-help boundaries.
+- Do not weaken crisis, abuse, mental-health, or professional-help boundaries.
 - Do not make AI sound like a pastor, human friend, prophet, biblical figure, Jesus, God, or the Holy Spirit.
 
-## Pull Request And Commit Guidelines
+## Pull Requests And Commits
 
-- Keep commits focused on one logical change.
+- Keep commits focused.
 - Use concise imperative commit messages, for example `Add route.bible prompt guidance`.
 - Before committing, run `git status --short` and review the diff.
-- Do not commit unless the user explicitly asks.
-- Do not push unless the user explicitly asks.
+- Do not commit unless asked.
+- Do not push unless asked.
 
-## Known Gotchas
+## Gotchas
 
-- The repo has no package scripts; do not suggest `npm test`, `pnpm build`, or similar commands unless those files are added later.
-- The compact prompt has a character budget; always verify with `wc -m` after editing it.
-- Scripture links and Scripture text are separate concerns: route.bible links references, while verified Bible APIs or licensed sources provide exact text.
-- Closest `AGENTS.md` takes precedence if subproject-specific files are added later.
+- No package scripts exist. Do not suggest `npm test`, `pnpm build`, or similar commands unless those files are added later.
+- The compact prompt has a character budget. Always verify with `wc -m` after editing it.
+- Scripture links and Scripture text are separate. route.bible links references. Verified Bible APIs or licensed sources provide exact text.
+- Closest `AGENTS.md` wins if subproject-specific files are added later.
