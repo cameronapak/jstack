@@ -57,6 +57,21 @@ Do not add a package manager, lockfile, build tool, formatter, or test framework
 - Put broader resource documents in `resources/`.
 - Preserve existing filenames and links unless a rename is requested.
 
+## Documentation Freshness
+
+Treat the actual repository as the source of truth. If `AGENTS.md` or `README.md` no longer reflects repo reality, update the stale document in the same working change when the correction is an objective fact.
+
+Objective facts include repo structure, tracked file paths, setup commands, validation commands, runtime/tooling presence, skill/resource/prompt inventory, and documented workflow constraints that the repo now proves true or false.
+
+- Update this file when it becomes stale about agent-facing repo reality.
+- Update `README.md` when it becomes stale about human-facing repo purpose, entry points, installation, or usage.
+- Ask before changing policy, philosophy, positioning, or workflow intent.
+- If both docs are stale, update both; do not make them mirror each other unless the same fact belongs in both.
+- Do not update docs for temporary, generated, local-only, or unrelated untracked files.
+- If unrelated user changes make docs look stale, ask before broadening scope.
+- After repo-reality changes, check whether `AGENTS.md` or `README.md` need alignment before finishing.
+- In the final response, briefly mention any `AGENTS.md` or `README.md` freshness updates.
+
 ## Validation Commands
 
 Because this is a content repo, validation is mostly structural and link-oriented.
