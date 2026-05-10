@@ -24,9 +24,9 @@ Easiest and best way to get started is through using Vercel's [skills](https://s
 This repo includes agent skills that package the Jesus-centered software guidance into reusable workflows:
 
 - **christian-ai-creator-helper** - Evaluate, build, and resource Christian AI apps using the faith.tools 5 unofficial rules, guardrail guidance, Bible developer tools, and a 20-question test framework.
-- **unslop** - Local cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
+- **unslop** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
 
-Installable skill content lives in `skills/`. Local agent skill copies and repo-only helpers live in `.agents/skills/`.
+Installable skill content lives in `skills/`. Local agent skill copies live in `.agents/skills/`.
 
 ```bash
 # Local repo installation

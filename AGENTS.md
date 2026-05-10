@@ -10,8 +10,8 @@ Key areas:
 
 - `README.md` - human-facing overview and entry points.
 - `prompts/` - copy-ready Christian AI prompts.
-- `.agents/skills/` - tracked local agent skills, including `christian-ai-creator-helper` and `unslop`.
-- `skills/` - installable Skills CLI content, currently `christian-ai-creator-helper`.
+- `.agents/skills/` - tracked local agent skill copies, including `christian-ai-creator-helper` and `unslop`.
+- `skills/` - installable Skills CLI content, including `christian-ai-creator-helper` and `unslop`.
 - `resources/` - standalone teachings and reference docs.
 
 ## Repository Structure
@@ -32,8 +32,10 @@ Key areas:
 |   +-- WHAT_TO_DO_WITH_AN_APP_IDEA.md
 +-- skills/
     +-- christian-ai-creator-helper/
+    |   +-- SKILL.md
+    |   +-- references/
+    +-- unslop/
         +-- SKILL.md
-        +-- references/
 ```
 
 ## Setup Commands
@@ -54,7 +56,7 @@ Do not add package managers, lockfiles, build tools, formatters, or test framewo
 - Put installable skill content in `skills/<skill-name>/SKILL.md`.
 - Put skill support files in `skills/<skill-name>/references/`.
 - Keep matching tracked skill copies in `.agents/skills/<skill-name>/` aligned.
-- Use `.agents/skills/unslop/SKILL.md` for branch-diff cleanup. It is local, not installable.
+- Keep `.agents/skills/unslop/SKILL.md` and `skills/unslop/SKILL.md` aligned.
 - Put broader resources in `resources/`.
 - Preserve filenames and links unless asked to rename them.
 
@@ -104,7 +106,7 @@ For prompt and guardrail changes, verify:
 - route.bible is a Scripture linking/routing layer, not a Bible text source.
 - Compact prompt character count stays within the limit.
 
-For skill changes, inspect the relevant `SKILL.md` and references together. Ensure reference paths are relative to the skill directory. If changing `christian-ai-creator-helper`, update both `.agents/skills/christian-ai-creator-helper/` and `skills/christian-ai-creator-helper/` unless divergence is intentional.
+For skill changes, inspect the relevant `SKILL.md` and references together. Ensure reference paths are relative to the skill directory. If changing a skill with both a `.agents/skills/<skill-name>/` copy and a `skills/<skill-name>/` copy, update both unless divergence is intentional.
 
 ## Style
 
