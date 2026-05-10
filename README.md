@@ -1,7 +1,5 @@
 # jstack = Jesus stack
 
-[![skills.sh](https://skills.sh/b/cameronapak/jstack)](https://skills.sh/cameronapak/jstack)
-
 I believe Jesus Christ of Nazareth is the source of wisdom and He gives it to those who sincerly ask.
 
 Over my time in the software industry, I've discovered we too easy default how we work to be prescribed by Silicon Valley's "best practices." For example, the software development lifecycle is often run in a cadence of "sprints". We sprint. And sprint. And sprint. And, BAM... We run straight into burnout and depression. 
@@ -18,6 +16,8 @@ Here are some free and open-source AI Bible prompts for LLMs like ChatGPT, Claud
 2. [Christian discipleship AI prompt (compact)](./prompts/christian-discipleship-ai-prompt-compact.md)
 
 ## Skills 
+
+[![skills.sh](https://skills.sh/b/cameronapak/jstack)](https://skills.sh/cameronapak/jstack)
 
 Easiest and best way to get started is through using Vercel's [skills](https://skills.sh/docs/cli) package.
 
