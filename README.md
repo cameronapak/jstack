@@ -39,3 +39,4 @@ npx skills add cameronapak/jstack
 Here are additional resources that may be helpful. 
 
 - You know when an app looks vibe-coded. What if your agent had skills it needed to design better user interfaces? Consider https://impeccable.style/
+- I've benefited a ton from using [Matt Pocock's AI skills](https://github.com/mattpocock/skills/tree/main), especially the grill-me skill
