@@ -51,6 +51,7 @@ Do not add package managers, lockfiles, build tools, formatters, or test framewo
 - Keep agent guidance in `AGENTS.md`.
 - Put reusable prompts in `prompts/`.
 - Put installable skill content in `skills/<skill-name>/SKILL.md`.
+- Every `skills/<skill-name>/SKILL.md` must include Agent Skills `metadata` with at least `fruit` set to exactly one of the nine qualities in Galatians 5:22–23, as a lowercase string: `love`, `joy`, `peace`, `patience`, `kindness`, `goodness`, `faithfulness`, `gentleness`, `self-control`. Pick one that fits the skill’s intent; do not list the fruit in `README.md` unless asked.
 - Put skill support files in `skills/<skill-name>/references/`.
 - Put broader resources in `resources/`.
 - Preserve filenames and links unless asked to rename them.
@@ -59,7 +60,7 @@ Do not add package managers, lockfiles, build tools, formatters, or test framewo
 
 Repo reality is the source of truth. If `AGENTS.md` or `README.md` becomes false, update it in the same change when the fix is objective.
 
-Objective facts include repo structure, tracked paths, setup commands, validation commands, runtime/tooling, skill/resource/prompt inventory, and workflow constraints proven by the repo.
+Objective facts include repo structure, tracked paths, setup commands, validation commands, runtime/tooling, skill/resource/prompt inventory, workflow constraints proven by the repo, and each skill’s `metadata.fruit` (Galatians 5:22–23) in frontmatter.
 
 - Update `AGENTS.md` when it is stale about agent-facing repo reality.
 - Update `README.md` when it is stale about human-facing purpose, entry points, install, or use.
@@ -84,6 +85,14 @@ When adding or editing prompt links, verify referenced files exist. Use relative
 
 If editing untracked Markdown, `git diff -- '*.md'` will not show it. Read the file or use an explicit no-index diff before summarizing.
 
+After skill add/rename, confirm every skill has `metadata.fruit` (line `  fruit:` immediately under `metadata:` in frontmatter):
+
+```bash
+for f in skills/*/SKILL.md; do grep -q '^  fruit:' "$f" || echo "missing metadata.fruit: $f"; done
+```
+
+Expect no output. If a file is missing it, add `fruit` per the Development Workflow list.
+
 ## Testing Instructions
 
 There is no automated test suite.
@@ -101,7 +110,7 @@ For prompt and guardrail changes, verify:
 - route.bible is a Scripture linking/routing layer, not a Bible text source.
 - Compact prompt character count stays within the limit.
 
-For skill changes, inspect the relevant `SKILL.md` and references together. Ensure reference paths are relative to the skill directory.
+For skill changes, inspect the relevant `SKILL.md` and references together. Ensure reference paths are relative to the skill directory. Ensure frontmatter includes `metadata.fruit` with one allowed value from the Development Workflow list (new or edited skills must not ship without it).
 
 ## Style
 
