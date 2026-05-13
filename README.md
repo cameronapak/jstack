@@ -12,22 +12,28 @@ The goal of this repo is to document what I learn into a series of bite-sized te
 
 [![skills.sh](https://skills.sh/b/cameronapak/jstack)](https://skills.sh/cameronapak/jstack)
 
-Easiest and best way to get started is through using Vercel's [skills](https://skills.sh/docs/cli) package.
-
-This repo includes agent skills that package the Jesus-centered software guidance into reusable workflows:
-
-- **[ft-build-christian-ai-guardrails](./skills/ft-build-christian-ai-guardrails/)** - Build Christian AI applications with biblical guardrails using the faith.tools 5 unofficial rules and system prompt templates.
-- **[ft-evaluate-christian-ai-apps](./skills/ft-evaluate-christian-ai-apps/)** - Evaluate Christian AI apps against the 5 unofficial rules using a 20-question testing framework with scoring rubrics.
-- **[ft-find-bible-developer-resources](./skills/ft-find-bible-developer-resources/)** - Find Bible APIs, SDKs, MCP servers, concordance tools, and licensing info for building Bible-aware applications.
-- **[ft-once-keep-agents-and-readme-fresh](./skills/ft-once-keep-agents-and-readme-fresh/)** - One-time setup skill that adds Documentation Freshness rules to existing agent instruction files so agents keep `AGENTS.md` and `README.md` aligned with repo reality.
-- **[ft-remove-ai-code-slop](./skills/ft-remove-ai-code-slop/)** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
-
 Installable skill content lives in `skills/`.
 
 ```bash
 # Local repo installation
 npx skills add cameronapak/jstack
 ```
+
+This repo includes agent skills that package the Jesus-centered software guidance into reusable workflows:
+
+### Alignment Skills
+
+- **[ft-build-christian-ai-guardrails](./skills/ft-build-christian-ai-guardrails/)** - Build Christian AI applications with biblical guardrails using the faith.tools 5 unofficial rules and system prompt templates.
+- **[ft-evaluate-christian-ai-apps](./skills/ft-evaluate-christian-ai-apps/)** - Evaluate Christian AI apps against the 5 unofficial rules using a 20-question testing framework with scoring rubrics.
+
+### Discovery Skills
+
+- **[ft-find-bible-developer-resources](./skills/ft-find-bible-developer-resources/)** - Find Bible APIs, SDKs, MCP servers, concordance tools, and licensing info for building Bible-aware applications.
+
+### Development Skills
+
+- **[ft-once-keep-agents-and-readme-fresh](./skills/ft-once-keep-agents-and-readme-fresh/)** - One-time setup skill that adds Documentation Freshness rules to existing agent instruction files so agents keep `AGENTS.md` and `README.md` aligned with repo reality.
+- **[ft-remove-ai-code-slop](./skills/ft-remove-ai-code-slop/)** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
 
 ### Additional Skills
 
