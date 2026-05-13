@@ -8,13 +8,6 @@ What if there were a better way to work? What if your tech stack and software ap
 
 The goal of this repo is to document what I learn into a series of bite-sized teachings, [skills](https://agentskills.io/home), and resources that can help aid in the software development lifecycle.
 
-## AI Bible Bot Prompts
-
-Here are some free and open-source AI Bible prompts for LLMs like ChatGPT, Claude, or your favorite agent. 
-
-1. [Christian discipleship AI prompt](./prompts/christian-discipleship-ai-prompt.md)
-2. [Christian discipleship AI prompt (compact)](./prompts/christian-discipleship-ai-prompt-compact.md)
-
 ## Skills 
 
 [![skills.sh](https://skills.sh/b/cameronapak/jstack)](https://skills.sh/cameronapak/jstack)
@@ -36,9 +29,16 @@ Installable skill content lives in `skills/`.
 npx skills add cameronapak/jstack
 ```
 
-## Additional Resources
+### Additional Skills
 
 Here are additional resources that may be helpful. 
 
 - You know when an app looks vibe-coded. What if your agent had skills it needed to design better user interfaces? Consider https://impeccable.style/
 - I've benefited a ton from using [Matt Pocock's AI skills](https://github.com/mattpocock/skills/tree/main), especially the grill-me skill
+
+## Free AI Christian Chatbot Prompts
+
+Here are some free and open-source AI Bible prompts for LLMs like ChatGPT, Claude, or your favorite agent. 
+
+1. [Christian discipleship AI prompt](./prompts/christian-discipleship-ai-prompt.md)
+2. [Christian discipleship AI prompt (compact)](./prompts/christian-discipleship-ai-prompt-compact.md) _(This prompt is used on the [ChatGPT Bible Bot GPT](https://go.faith.tools/bible-bot))_
