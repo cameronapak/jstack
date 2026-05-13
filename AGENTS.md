@@ -10,7 +10,7 @@ Key areas:
 
 - `README.md` - human-facing overview and entry points.
 - `prompts/` - copy-ready Christian AI prompts.
-- `skills/` - installable Skills CLI content, including `christian-ai-creator-helper`, `keep-agents-and-readme-fresh`, and `unslop`.
+- `skills/` - installable Skills CLI content, including `ft-build-christian-ai-guardrails`, `ft-evaluate-christian-ai-apps`, `ft-find-bible-developer-resources`, `ft-once-keep-agents-and-readme-fresh`, and `ft-remove-ai-code-slop`.
 - `resources/` - standalone teachings and reference docs.
 
 ## Repository Structure
@@ -26,12 +26,21 @@ Key areas:
 |   +-- FAITH_TOOLS_AI_STANDARDS.md
 |   +-- WHAT_TO_DO_WITH_AN_APP_IDEA.md
 +-- skills/
-    +-- christian-ai-creator-helper/
+    +-- christian-ai-creator-helper/        (archived)
     |   +-- SKILL.md
     |   +-- references/
-    +-- keep-agents-and-readme-fresh/
+    +-- ft-build-christian-ai-guardrails/
     |   +-- SKILL.md
-    +-- unslop/
+    |   +-- references/
+    +-- ft-evaluate-christian-ai-apps/
+    |   +-- SKILL.md
+    |   +-- references/
+    +-- ft-find-bible-developer-resources/
+    |   +-- SKILL.md
+    |   +-- references/
+    +-- ft-once-keep-agents-and-readme-fresh/
+    |   +-- SKILL.md
+    +-- ft-remove-ai-code-slop/
         +-- SKILL.md
 ```
 
@@ -134,10 +143,10 @@ When editing Christian AI prompts, skills, or guardrails, preserve these standar
 
 Use these references:
 
-- `skills/christian-ai-creator-helper/references/test-questions.md` - 20-question evaluation framework.
-- `skills/christian-ai-creator-helper/references/guardrails.md` - guardrail guidance.
-- `skills/christian-ai-creator-helper/references/five-rules.md` - rule philosophy.
-- `skills/christian-ai-creator-helper/references/bible-developer-resources.md` - Bible APIs, SDKs, MCP, concordance, commentary, datasets, and route.bible.
+- `skills/ft-evaluate-christian-ai-apps/references/test-questions.md` - 20-question evaluation framework.
+- `skills/ft-build-christian-ai-guardrails/references/guardrails.md` - guardrail guidance.
+- `skills/ft-build-christian-ai-guardrails/references/five-rules.md` - rule philosophy.
+- `skills/ft-find-bible-developer-resources/references/bible-developer-resources.md` - Bible APIs, SDKs, MCP, concordance, commentary, datasets, and route.bible.
 
 `resources/FAITH_TOOLS_AI_STANDARDS.md` is the standalone resource version of the five rules. It may sound more article-like than skill references. Preserve that difference unless asked to consolidate.
 

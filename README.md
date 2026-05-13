@@ -23,9 +23,11 @@ Easiest and best way to get started is through using Vercel's [skills](https://s
 
 This repo includes agent skills that package the Jesus-centered software guidance into reusable workflows:
 
-- **[christian-ai-creator-helper](./skills/christian-ai-creator-helper/)** - Evaluate, build, and resource Christian AI apps using the faith.tools 5 unofficial rules, guardrail guidance, Bible developer tools, and a 20-question test framework.
-- **[keep-agents-and-readme-fresh](./skills/keep-agents-and-readme-fresh/)** - One-time setup skill that adds Documentation Freshness rules to existing agent instruction files so agents keep `AGENTS.md` and `README.md` aligned with repo reality.
-- **[unslop](./skills/unslop/)** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
+- **[ft-build-christian-ai-guardrails](./skills/ft-build-christian-ai-guardrails/)** - Build Christian AI applications with biblical guardrails using the faith.tools 5 unofficial rules and system prompt templates.
+- **[ft-evaluate-christian-ai-apps](./skills/ft-evaluate-christian-ai-apps/)** - Evaluate Christian AI apps against the 5 unofficial rules using a 20-question testing framework with scoring rubrics.
+- **[ft-find-bible-developer-resources](./skills/ft-find-bible-developer-resources/)** - Find Bible APIs, SDKs, MCP servers, concordance tools, and licensing info for building Bible-aware applications.
+- **[ft-once-keep-agents-and-readme-fresh](./skills/ft-once-keep-agents-and-readme-fresh/)** - One-time setup skill that adds Documentation Freshness rules to existing agent instruction files so agents keep `AGENTS.md` and `README.md` aligned with repo reality.
+- **[ft-remove-ai-code-slop](./skills/ft-remove-ai-code-slop/)** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
 
 Installable skill content lives in `skills/`.
 
