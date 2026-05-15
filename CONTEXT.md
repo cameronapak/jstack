@@ -40,8 +40,20 @@ _Avoid_: MVP, side project (those are product terms; this is a stewardship term)
 A real person or small trusted group the builder can serve and learn from before assuming a public app.
 _Avoid_: Target persona, beta users
 
+**Raw idea**:
+The user's first articulation of an app idea — usually a guess at a solution, not the actual problem. Borrowed from Shape Up.
+_Avoid_: Initial concept, pitch
+
+**Real problem**:
+The specific moment in the user's life where pain shows up — what they reach for, what breaks down, what they wish happened instead. The vertical narrowing under a raw idea.
+_Avoid_: Pain point, user need, root cause
+
+**Trusted believer**:
+A real human in the user's life (in person or by phone, not in a chat session) who can hear the idea and respond honestly. The embodied check that surrender is more than private prayer.
+_Avoid_: Accountability partner, advisor
+
 **Heart focus**:
-The focused audience, pain, and smallest faithful loop an app should serve before adding more features. Clarifying the heart focus is part of discernment; choosing implementation details is product planning.
+The focused audience, pain, and smallest faithful loop an app should serve before adding more features. Horizontal narrowing across features (distinct from Real problem, which is vertical narrowing into the moment). Clarifying the heart focus is part of discernment; choosing implementation details is product planning.
 _Avoid_: Feature set, MVP scope
 
 **Graceful no**:
