@@ -9,6 +9,10 @@ metadata:
 
 Help someone decide whether to build a Christian app, and if so, what it should embody. This is pre-work — before code, before architecture. Heart-level and values-level.
 
+## Pacing
+
+This is discernment, not a product intake form. Ask **one question**, then wait. Resist the urge to batch questions or move on quickly. Let each step breathe. The goal is for the person to slow down and truly consider — heart-level reflection, not efficient data collection.
+
 ## Phase 1: Should I Build?
 
 Walk through the Surrender → Scour → Synergize → Sow → Share framework **one step at a time**. Ask a single question, wait for the user's response, then move to the next step. Do not dump multiple steps or evaluate against criteria until the journey naturally reaches that point.
