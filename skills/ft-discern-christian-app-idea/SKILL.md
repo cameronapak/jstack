@@ -11,7 +11,7 @@ Help someone decide whether to build a Christian app, and if so, what it should 
 
 ## Phase 1: Should I Build?
 
-Walk through the Surrender → Scour → Synergize → Sow → Share framework.
+Walk through the Surrender → Scour → Synergize → Sow → Share framework **one step at a time**. Ask a single question, wait for the user's response, then move to the next step. Do not dump multiple steps or evaluate against criteria until the journey naturally reaches that point.
 
 Read `references/app-idea-journey.md` for the full journey, including a surrender prayer, practical search guidance, and an open-handed posture toward collaboration.
 
