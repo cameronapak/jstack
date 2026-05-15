@@ -80,6 +80,16 @@ Search and find any apps that you think would be a good fit. Also list apps that
 
 If you find an app that solves your pain point, then celebrate and use that app!
 
+### Also scour the technical and economic reality
+
+Before moving on, surface what's actually possible. Some ideas die or reshape here, and that's good — better now than after months of building.
+
+- **Platform constraints:** Does the platform you're imagining even allow what you want? (e.g., iMessage has no public bot API; Apple Business Chat requires brand approval; RCS Business Messaging needs aggregator partners.)
+- **Cost:** Per-message fees, hosting, third-party APIs. SMS via Twilio is ~$0.0079/msg in the US. AI APIs cost per token. Bible APIs may be free or paid.
+- **Licensing:** Bible translations are not all free use. Public domain (KJV, ASV) and free-use APIs differ from licensed translations (NIV, ESV, NLT).
+
+Data informs wisdom. An idea that ignores reality isn't faithful — it's wishful.
+
 ## 3. Synergize
 
 Synergy is a coming together and collaboration, where the combined effort is greater than the sum of the separate efforts.
@@ -93,6 +103,18 @@ If you find an app that is close but missing a feature or two, then I encourage 
 Side note: if you're on the receiving end of a contact or request like this, consider it a blessing. Prayerfully respond. Collaborate, if possible.
 
 Without synergy, we end up creating apps, websites, tools, and services in silos, feeling alone and having to figure out all this stuff by ourselves.
+
+### Synergize is a spectrum, not just collaboration
+
+If full collaboration isn't possible — no time, no team, no fit — synergize still applies. Building isn't the only way to participate in what God's already doing. Consider the full spectrum:
+
+- **Contribute** to an existing open-source project (code, docs, translations, bug reports)
+- **Donate** financially to support a builder or ministry already doing the work
+- **Amplify** their work — share, recommend, write about it
+- **Pray** for the existing builder or ministry by name
+- **Use and bless** the tool that already exists; let your usage be your blessing
+
+Choosing not to build something new because someone else is already faithful in it is itself a holy act.
 
 ### Am I Open-Handed?
 
@@ -144,7 +166,34 @@ If you found someone to collaborate with, great! We are better together.
 
 You've surrendered, scoured, and sought out synergy. It may be time to start sowing and putting in the hard work.
 
-If you're wanting to grow in putting in hard work, I encourage you to learn from and get involved with [Faith Driven Entrepreneur](https://faithdrivenentrepreneur.org/), [FaithTech](https://faithtech.com/), and other great faith and tech communities.
+### Count the cost honestly (truth)
+
+> "Suppose one of you wants to build a tower. Won't you first sit down and estimate the cost to see if you have enough money to complete it?"
+>
+> Luke 14:28 NIV
+
+Most builders in this space are bivocational — full-time job, family, ministry, and *then* this. That's not a weakness; it's reality. So count the real cost before sowing:
+
+- **Hours per week** you can sustain *for months*, not just the excited first week
+- **Support burden** when real people start using it (bugs, complaints, "this didn't work")
+- **Infra cost** every month, even when no one's looking
+- **Emotional cost** when growth is slow or attention dries up
+
+If those numbers don't add up, that's the Lord's mercy showing you something — not a personal failure.
+
+### What's the smallest faithful version? (grace)
+
+A 2-hour-a-week project that genuinely serves 50 people is a real ministry. Not every faithful sowing has to scale. Ask:
+
+- What's the smallest version that still helps someone?
+- Could this be a one-time tool, a static page, a simple bot, instead of a full app?
+- Is there a season for this — a 3-month sprint — vs. forever?
+
+Faithful in little is faithful indeed.
+
+### Communities for the long haul
+
+If you're wanting to grow in putting in hard work, learn from and get involved with [Faith Driven Entrepreneur](https://faithdrivenentrepreneur.org/), [FaithTech](https://faithtech.com/), and other great faith and tech communities.
 
 Looking for a practical approach to building redemptive technology? Check out [The FaithTech Playbook](https://faithtech.com/the-faithtech-playbook/).
 
@@ -185,5 +234,3 @@ And, when you have your app or tool in a place that's ready to be delivered to C
 The journey of building from idea to app is a journey worth sharing. Partner with God and community each step of the way. Work hard and rest hard. The Lord didn't make us to constantly be in the grind, sprinting to no end. When we make room and intentionally add margins into our days, weeks, and rhythms, we can better slow down, connect with others, connect with the Lord, and even do better work. Consider [practicing the Sabbath](https://www.practicingtheway.org/sabbath) as a weekly rhythm to rest, trust, surrender, and connect with God and community.
 
 So... if you have an app idea, you know what to do! When someone you know has an app idea for Christians, send them this.
-
--- Cam Pak, a man of many ideas and heart for more collaboration

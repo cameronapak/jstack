@@ -18,6 +18,10 @@ Key areas:
 ```text
 .
 +-- README.md
++-- CONTEXT.md
++-- docs/
+|   +-- adr/
+|       +-- 0001-synergize-as-spectrum.md
 +-- prompts/
 |   +-- christian-discipleship-ai-prompt.md
 |   +-- christian-discipleship-ai-prompt-compact.md
