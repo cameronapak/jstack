@@ -110,7 +110,7 @@ Ask these one at a time. If the conversation turns to platform, auth, data stora
 
 Example:
 
-> **User:** "I want to build Bible chat, prayer, church, journal, and a garden all in one."
+> **User:** "I want to build Bible chat, prayer, church, journal, and a ChMS all in one."
 > **Agent:** "Those may all be good, but together they may muddy the heart focus. Who is this for?"
 > **User:** "Busy believers who want to live their faith daily."
 > **Agent:** "Good. What is the smallest faithful loop that serves them?"
