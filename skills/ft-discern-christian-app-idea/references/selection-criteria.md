@@ -79,6 +79,7 @@ These patterns can show up in any Christian app, not just AI. Watch for them:
 - **Health/Wealth Gospel** -- Faithful Christians always prosper materially
 - **Cheap Grace** -- Sin doesn't matter, God forgives everything automatically
 - **Legalism** -- Relationship with God based on rule-keeping
+- **Performance Spirituality** -- Turning spiritual disciplines into scores, streaks, status, or shame instead of grace-shaped obedience and relationship with God
 
 These aren't just theological errors. They're values problems that shape how your app communicates, what it emphasizes, and what it minimizes. Any Christian app can drift into these patterns. Guard against them.
 

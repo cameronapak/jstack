@@ -36,6 +36,14 @@ _Avoid_: Hobbyist, side-project person, indie hacker (the last is fine in casual
 A genuinely small project (e.g., 2 hours/week, 50 users) treated as real ministry. Not every faithful sowing has to scale.
 _Avoid_: MVP, side project (those are product terms; this is a stewardship term)
 
+**Known first user**:
+A real person or small trusted group the builder can serve and learn from before assuming a public app.
+_Avoid_: Target persona, beta users
+
+**Heart focus**:
+The focused audience, pain, and smallest faithful loop an app should serve before adding more features. Clarifying the heart focus is part of discernment; choosing implementation details is product planning.
+_Avoid_: Feature set, MVP scope
+
 **Graceful no**:
 An honest "don't build" or "not now" landing. A successful outcome of the discernment journey, not a failure.
 _Avoid_: Rejection, kill, abandon
@@ -50,8 +58,9 @@ _Avoid_: Prayer (when describing what the agent does), closing prayer
 - **Scour** includes both existing-tool search AND technical/economic reality check
 - **Synergize** is a spectrum; full collaboration is one option, **Use and bless** is another
 - **Sow** holds **truth** (count the cost) and **grace** (smallest faithful version) in tension
+- A **Heart focus** may be clarified during **Discernment**, but implementation details require a handoff pause
 - **Graceful no** can occur after any step; it ends the journey with a **Closing benediction**
-- **Bivocational builder** is the default user; **Faithful small-scale** is the default scope
+- **Bivocational builder** is the default user; **Faithful small-scale** is the default scope; a **Known first user** can be the first audience
 
 ## Example dialogue
 
