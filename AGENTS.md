@@ -26,10 +26,13 @@ Key areas:
 |   +-- FAITH_TOOLS_AI_STANDARDS.md
 |   +-- WHAT_TO_DO_WITH_AN_APP_IDEA.md
 +-- skills/
-    +-- christian-ai-creator-helper/        (archived)
+    +-- christian-ai-creator-helper/                (archived)
     |   +-- SKILL.md
     |   +-- references/
-    +-- ft-build-christian-ai-guardrails/
+    +-- ft-build-christian-ai-guardrails/           (archived)
+    |   +-- SKILL.md
+    |   +-- references/
+    +-- ft-discern-christian-app-idea/
     |   +-- SKILL.md
     |   +-- references/
     +-- ft-evaluate-christian-ai-apps/
@@ -143,9 +146,11 @@ When editing Christian AI prompts, skills, or guardrails, preserve these standar
 
 Use these references:
 
+- `skills/ft-discern-christian-app-idea/references/selection-criteria.md` - 10 faith.tools selection criteria, common pitfalls, and heart posture for app building.
+- `skills/ft-discern-christian-app-idea/references/app-idea-journey.md` - Surrender through Share framework for app idea discernment.
 - `skills/ft-evaluate-christian-ai-apps/references/test-questions.md` - 20-question evaluation framework.
-- `skills/ft-build-christian-ai-guardrails/references/guardrails.md` - guardrail guidance.
-- `skills/ft-build-christian-ai-guardrails/references/five-rules.md` - rule philosophy.
+- `skills/ft-build-christian-ai-guardrails/references/guardrails.md` - guardrail guidance. (archived skill, files still valid)
+- `skills/ft-build-christian-ai-guardrails/references/five-rules.md` - rule philosophy. (archived skill, files still valid)
 - `skills/ft-find-bible-developer-resources/references/bible-developer-resources.md` - Bible APIs, SDKs, MCP, concordance, commentary, datasets, and route.bible.
 
 `resources/FAITH_TOOLS_AI_STANDARDS.md` is the standalone resource version of the five rules. It may sound more article-like than skill references. Preserve that difference unless asked to consolidate.

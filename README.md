@@ -23,7 +23,8 @@ This repo includes agent skills that package the Jesus-centered software guidanc
 
 ### Alignment Skills
 
-- **[ft-build-christian-ai-guardrails](./skills/ft-build-christian-ai-guardrails/)** - Build Christian AI applications with biblical guardrails using the faith.tools 5 unofficial rules and system prompt templates.
+- **[ft-discern-christian-app-idea](./skills/ft-discern-christian-app-idea/)** - Discern whether and how to build a Christian app through heart alignment, the Surrender-Scour-Synergize-Sow-Share framework, and the faith.tools selection criteria.
+- **[ft-build-christian-ai-guardrails](./skills/ft-build-christian-ai-guardrails/)** - Build Christian AI applications with biblical guardrails using the faith.tools 5 unofficial rules and system prompt templates. *(archived)*
 - **[ft-evaluate-christian-ai-apps](./skills/ft-evaluate-christian-ai-apps/)** - Evaluate Christian AI apps against the 5 unofficial rules using a 20-question testing framework with scoring rubrics.
 
 ### Discovery Skills
