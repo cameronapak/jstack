@@ -40,6 +40,7 @@ https://route.bible/{passage}?v={translation}&src={your_app}
 | Server | Details |
 |---|---|
 | [Bible MCP](https://bible-mcp.faith.tools/) | Hosted endpoint, 97/100 quality on Smithery |
+| [Doxa MCP](https://doxa.app/mcp) | Hosted endpoint with three tools: encourage (Doxa-voice reply anchored in Scripture), scripture (BSB lookup), way_movement (Doxa Way framework). Free per-individual quota, BYOL Anthropic for unlimited |
 | [AdbC99/ai-bible](https://github.com/AdbC99/ai-bible) | MCP server + OpenAI wrapper |
 | [geosp/mcp-bible](https://github.com/geosp/mcp-bible) | Python, via BibleGateway |
 
