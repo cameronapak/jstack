@@ -107,6 +107,7 @@ MCP (Model Context Protocol) servers let AI assistants like Claude and Cursor ac
 | Server | Language | Details |
 |---|---|---|
 | [**Bible MCP**](https://bible-mcp.faith.tools/) | TypeScript (Deno) | Uses the Free Use Bible API. Hosted endpoint: `https://bible-mcp.faith.tools/mcp`. 97/100 quality on Smithery, 99.7% uptime. [Source](https://www.val.town/x/cameronpak/bible-mcp). [On faith.tools](https://faith.tools/app/6401-bible-mcp). |
+| [**Doxa MCP**](https://doxa.app/mcp) | TypeScript (Deno) | Three tools: `doxa_encourage` (Doxa-voice reply anchored in Scripture, BSB), `doxa_scripture` (BSB verse lookup with deep links), `doxa_way_movement` (Doxa Way journey map). Hosted endpoint: `https://doxa.app/mcp/v1`. Free per-individual quota (10/day per caller), BYOL Anthropic for unlimited. [On Anthropic registry](https://registry.modelcontextprotocol.io/v0/servers?search=doxa). [On Smithery](https://smithery.ai/servers/garth/doxa-mcp). [Source](https://github.com/The-Doxa-Way/doxa-mcp-schema). [npm client `@thedoxaway/mcp-client`](https://www.npmjs.com/package/@thedoxaway/mcp-client). |
 | [**AdbC99/ai-bible**](https://github.com/AdbC99/ai-bible) | JavaScript | MCP server + OpenAI completions API wrapper. Reliable, reproducible verse lookup. Also at [ai-bible.com](http://ai-bible.com/). |
 | [**geosp/mcp-bible**](https://github.com/geosp/mcp-bible) | Python | Via BibleGateway. ESV/NIV/KJV/NASB/NKJV/NLT/AMP/MSG. Supports stdio, HTTP MCP, and REST modes. |
 
