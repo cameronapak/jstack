@@ -40,8 +40,8 @@ This repo includes agent skills that package the Jesus-centered software guidanc
 
 Here are additional resources that may be helpful. 
 
-- You know when an app looks vibe-coded. What if your agent had skills it needed to design better user interfaces? Consider https://impeccable.style/
-- I've benefited a ton from using [Matt Pocock's AI skills](https://github.com/mattpocock/skills/tree/main), especially the grill-me skill
+- You know when an app looks vibe-coded. What if your agent had skills it needed to design better user interfaces? Consider https://impeccable.style and even try out their [Chrome Extension](https://chromewebstore.google.com/detail/impeccable/bdkgmiklpdmaojlpflclinlofgjfpabf)! 
+- I've benefited a ton from using [Matt Pocock's AI skills](https://github.com/mattpocock/skills/tree/main), especially the `/grill-me` and `/grill-with-docs` skills
 
 ## Free AI Christian Chatbot Prompts
 
