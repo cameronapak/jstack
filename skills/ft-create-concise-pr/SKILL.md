@@ -15,7 +15,7 @@ Know the whole change before writing a word:
 
 1. Find where the branch forked: `git merge-base HEAD <default-branch>` (default branch via `gh repo view --json defaultBranchRef`).
 2. Read the full diff and commit messages since the merge base.
-3. If a PR already exists (`gh pr view`), read its current description and review comments. If the description is already a snapshot (matches the template below), jump to **Update** below. If it isn't, rewrite it with **Write**, keeping facts from the old description that are still true.
+3. If a PR already exists (`gh pr view`), read its current description and review comments. If the description is already a snapshot (matches the template below), jump to **Update** below. If it isn't, rewrite it with **Write**, keeping facts from the old description that are still true — and never dropping images or links you can't regenerate.
 
 Done when every changed file is accounted for in your understanding — not necessarily in the description.
 
@@ -38,7 +38,7 @@ Use exactly this template. Omit sections that don't apply. Never add sections.
 Rules:
 
 - **Title**: imperative mood, under 70 characters.
-- **Summary**: max 2 sentences. What changed and why. No "This PR..." openers.
+- **Summary**: max 2 sentences. What changed and why. No "This PR..." openers. If the PR closes an issue, add `Fixes #N` on its own line — GitHub auto-closes it on merge.
 - **Changes**: 1–7 bullets, one line each — as few as the change honestly needs. Order: behavior changes first, then logic changes, then refactors/chores. Describe intent, not file names — the diff already shows those.
 - **Flow**: only when the gate below passes.
 - **Breaking / Migration**: only when the change breaks consumers or requires a migration step.
