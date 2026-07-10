@@ -39,7 +39,7 @@ Rules:
 
 - **Title**: imperative mood, under 70 characters.
 - **Summary**: max 2 sentences. What changed and why. No "This PR..." openers. If the PR closes an issue, add `Fixes #N` on its own line — GitHub auto-closes it on merge.
-- **Changes**: 1–7 bullets, one line each — as few as the change honestly needs. Order: behavior changes first, then logic changes, then refactors/chores. Describe intent, not file names — the diff already shows those.
+- **Changes**: 1–7 bullets, one line each — as few as the change honestly needs. Order: behavior changes first, then logic changes, then refactors/chores. Lead with the outcome, trail the mechanism: "Highlights survive flaky networks (retry with backoff)", not "Added retry logic for highlights". The outcome names who benefits and how — a user keeping their moments, a developer getting faster builds. Never file names; the diff shows those.
 - **Flow**: only when the gate below passes.
 - **Breaking / Migration**: only when the change breaks consumers or requires a migration step.
 - **Test plan**: one line stating what was actually verified (commands run, flows exercised). If nothing was verified, write `Not tested`. Never invent verification.
