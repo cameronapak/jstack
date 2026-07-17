@@ -21,7 +21,7 @@ Done when every changed file is accounted for in your understanding — not nece
 
 ## Write
 
-Use exactly this template. Omit sections that don't apply. Never add sections.
+Use exactly this template. Omit sections that don't apply. Never add top-level sections (the `##` headers are fixed; content nested under them, like Flow's diagram and Under the hood note, is not a new section).
 
 ```md
 ## Summary
@@ -43,14 +43,18 @@ Rules:
 - **Summary**: max 2 sentences. What changed and why. No "This PR..." openers. Then the hallway test: read it aloud as if telling a PM in the hallway — if they couldn't retell it to someone else, rewrite. If the PR closes an issue, add `Fixes #N` on its own line — GitHub auto-closes it on merge.
 - **Changes**: a numbered list, 1–7 items — numbers let a reviewer say "change 3" in a comment. One sentence each; if an item needs a second sentence, it's either two changes or Summary material. Order: behavior changes first, then logic changes, then refactors/chores. Lead with the outcome, trail the mechanism: "Highlights survive flaky networks (retry with backoff)", not "Added retry logic for highlights". The outcome names who benefits and how — a user keeping their moments, a developer getting faster builds. Never file names; the diff shows those. If one change deserves disproportionate scrutiny, add a line under the list: `**Start here:** change 3 — <the subtle part, in a few words>`. One item max — if you'd flag two, flag none. No line means no landmines.
 - **Screenshots**: only when the change is visible on screen. Before/after for modified UI; one shot or short recording for new UI. The image replaces prose — don't also describe what it shows.
-- **Flow**: only when the gate below passes.
+- **Flow**: only when a gate below passes — a diagram, an Under the hood note, or both.
 - **Breaking / Migration**: only when the change breaks consumers or requires a migration step.
 - **Test plan**: bullets, one verification per line (command run, flow exercised) — never prose. If anything is left for the reviewer to check, end with one bold line: `**Needs manual check:** <what and why>`. No such line means nothing is asked of the reviewer. If nothing was verified, write `Not tested`. Never invent verification.
 - No filler, no adjectives.
 
-### Flow diagram gate
+### Flow gates
 
-Include a Mermaid diagram (GitHub renders it natively) only when the change alters flow across 3 or more components, or reorders a sequence of operations. Max 8 nodes. Show the new flow only — no before/after pairs. Never diagram what one bullet already explains.
+Two optional pieces live under Flow, each independently gated; most PRs get neither.
+
+**Diagram** — a Mermaid diagram (GitHub renders it natively), shown open. Include only when the change alters flow across 3 or more components, or reorders a sequence of operations. Max 8 nodes. Show the new flow only — no before/after pairs. Never diagram what one bullet already explains.
+
+**Under the hood** — a collapsed `<details><summary>Under the hood</summary>` block for the reviewer, human or agent, who needs the mental model the snapshot can't hold. Include only when the change spans enough moving parts that Summary and Changes can't convey how they connect. Put two things: how the changed pieces interact, and the one non-obvious decision plus the alternative it beat. A few sentences — if it runs long, the change wanted splitting, not more prose. Never restate Changes or the `**Start here:**` line.
 
 ## Apply
 
@@ -69,5 +73,5 @@ When a PR that already has a snapshot description changes:
 - Keep change numbers stable — review comments may cite them. Edit items in place, append new ones at the end of their tier; renumber only when an item is deleted.
 - Don't let the Summary grow.
 - If a change reverses an earlier item, replace the item rather than appending.
-- Refresh the Test plan if new verification happened, dropping the `**Needs manual check:**` line once the check is done. Refresh or delete the diagram if the flow changed, screenshots if the UI changed, and the `**Start here:**` line if it no longer points at the riskiest change.
+- Refresh the Test plan if new verification happened, dropping the `**Needs manual check:**` line once the check is done. Refresh or delete the diagram if the flow changed, the **Under the hood** note if the mental model changed, screenshots if the UI changed, and the `**Start here:**` line if it no longer points at the riskiest change.
 - Leave bot-appended blocks (release notes, coverage reports — usually wrapped in HTML comments) untouched. They're not yours.
