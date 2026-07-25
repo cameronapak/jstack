@@ -159,7 +159,7 @@ Use these references:
 - `skills/ft-discern-christian-app-idea/references/app-idea-journey.md` - Surrender through Share framework for app idea discernment.
 - `skills/ft-evaluate-christian-ai-apps/references/test-questions.md` - 25-question evaluation framework, plus the generator-surface protocol and artifact audit.
 - `skills/ft-build-christian-ai-guardrails/references/guardrails.md` - guardrail guidance. (archived skill, files still valid)
-- `skills/ft-build-christian-ai-guardrails/references/five-rules.md` - philosophy for the six unofficial guardrails; filename predates the sixth. (archived skill, files still valid)
+- `skills/ft-build-christian-ai-guardrails/references/ai-standards.md` - philosophy for the unofficial guardrails. (archived skill, files still valid)
 - `skills/ft-find-bible-developer-resources/references/bible-developer-resources.md` - Bible APIs, SDKs, MCP, concordance, commentary, datasets, and route.bible.
 
 `resources/FAITH_TOOLS_AI_STANDARDS.md` is the standalone resource version of the six unofficial guardrails. It may sound more article-like than skill references. Preserve that difference unless asked to consolidate.

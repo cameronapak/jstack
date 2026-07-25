@@ -18,7 +18,7 @@ Implement the 6 unofficial guardrails for Christian AI apps into your applicatio
 5. **Balance grace and truth.** All truth without grace feels like law. All grace without truth feels like permission to sin. Jesus was full of both.
 6. **No inventing personal facts for the user to deliver as true.** When AI drafts something someone will sign, send, or preach, it must not invent facts about the user or about third parties.
 
-For the full philosophy behind each guardrail, see `references/five-rules.md`.
+For the full philosophy behind each guardrail, see `references/ai-standards.md`.
 
 ## Quick Start
 
@@ -73,4 +73,4 @@ Every Christian AI system prompt should include:
 ## References
 
 - `references/guardrails.md` — Full implementation guidance with system prompt templates
-- `references/five-rules.md` — Full philosophy and reasoning behind each guardrail
+- `references/ai-standards.md` — Full philosophy and reasoning behind each guardrail
