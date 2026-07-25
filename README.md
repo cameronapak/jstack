@@ -8,6 +8,17 @@ What if there were a better way to work? What if your tech stack and software ap
 
 The goal of this repo is to document what I learn into a series of bite-sized teachings, [skills](https://agentskills.io/home), and resources that can help aid in the software development lifecycle.
 
+## Your app doesn't have to look vibe-coded
+
+A lot of pastors and followers of Jesus are building software for the first time with AI. That's a gift - and it also means a lot of apps look the same: purple gradients, generic cards, and that "an agent made this" feel.
+
+You don't need to become a designer. Give your agent real UI skills before it ships the interface:
+
+1. **[UI Skills](https://www.ui-skills.com/)** - a collection of design-engineering skills for accessibility, motion, frontend craft, and interface quality. Start here when you're about to build or fix a UI.
+2. **[Impeccable](https://impeccable.style)** - focused craft for production-grade interfaces that avoid generic AI aesthetics. There's also a [Chrome Extension](https://chromewebstore.google.com/detail/impeccable/bdkgmiklpdmaojlpflclinlofgjfpabf).
+
+Beautiful isn't about impressing Silicon Valley. It's about serving people well - clear hierarchy, readable type, and an interface that doesn't get in the way of the message.
+
 ## Skills
 
 [![skills.sh](https://skills.sh/b/cameronapak/jstack)](https://skills.sh/cameronapak/jstack)
@@ -41,7 +52,6 @@ This repo includes agent skills that package the Jesus-centered software guidanc
 
 Here are additional resources that may be helpful.
 
-- You know when an app looks vibe-coded. What if your agent had skills it needed to design better user interfaces? Consider https://impeccable.style and even try out their [Chrome Extension](https://chromewebstore.google.com/detail/impeccable/bdkgmiklpdmaojlpflclinlofgjfpabf)!
 - I've benefited a ton from using [Matt Pocock's AI skills](https://github.com/mattpocock/skills/tree/main), especially the `/grill-me` and `/grill-with-docs` skills
 
 ## Free AI Christian Chatbot Prompts
