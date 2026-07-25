@@ -18,7 +18,7 @@ Evaluate Christian AI applications against the 6 unofficial guardrails for AI ap
 
 **For Bible API/SDK/MCP/concordance resources:** Read `references/bible-developer-resources.md` for a curated directory of tools to give your AI real-time access to Scripture, including [route.bible](https://route.bible/) for portable Scripture linking across any Bible app.
 
-**For the full philosophy behind the guardrails:** Read `references/five-rules.md`.
+**For the full philosophy behind the guardrails:** Read `references/ai-standards.md`.
 
 ## The 6 Unofficial Guardrails
 
