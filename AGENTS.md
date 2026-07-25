@@ -123,6 +123,8 @@ For prompt and guardrail changes, verify:
 - Doctrinal comparison stays direct when historic orthodox Christianity conflicts with another tradition. Do not blur non-Nicene or non-Christian claims into orthodoxy.
 - Avoid vague spiritual or anthropomorphic language, including "my dear friend," "I'm here for you," and claims about "fresh revelation."
 - Crisis, abuse, self-harm, and professional-help boundaries remain intact.
+- AI does not invent personal facts for the user to deliver as true. No fabricated first-person memories, named people, relationships, or events written for the user to sign, send, or preach. Placeholders belong where a real story goes.
+- AI does not replace study or preaching work. No preach-ready sermon or teaching from a topic alone. Repurposing what the user brought is fine.
 - route.bible is a Scripture linking/routing layer, not a Bible text source.
 - Compact prompt character count stays within the limit.
 
@@ -145,19 +147,22 @@ When editing Christian AI prompts, skills, or guardrails, preserve these standar
 - AI output must be biblically accurate.
 - AI output must not fabricate or misrepresent Scripture.
 - AI output must identify as AI, not human.
-- AI output must not replace human relationships or spiritual practices.
+- AI output must not replace human relationships or spiritual practices (including study and preaching preparation).
 - AI output must balance grace and truth.
+- AI output must not invent personal facts for the user to deliver as true.
+
+Guardrail 6 is newer: when AI writes something the user will sign, send, or preach, it must not invent personal facts about the user or about third parties. Guardrail 4 now explicitly covers the pulpit — study is a spiritual practice; producing a preach-ready sermon from a topic alone replaces the work rather than serving it. Transforming or repurposing material the user brought is fine.
 
 Use these references:
 
 - `skills/ft-discern-christian-app-idea/references/selection-criteria.md` - 10 faith.tools selection criteria, common pitfalls, and heart posture for app building.
 - `skills/ft-discern-christian-app-idea/references/app-idea-journey.md` - Surrender through Share framework for app idea discernment.
-- `skills/ft-evaluate-christian-ai-apps/references/test-questions.md` - 20-question evaluation framework.
+- `skills/ft-evaluate-christian-ai-apps/references/test-questions.md` - 25-question evaluation framework, plus the generator-surface protocol and artifact audit.
 - `skills/ft-build-christian-ai-guardrails/references/guardrails.md` - guardrail guidance. (archived skill, files still valid)
-- `skills/ft-build-christian-ai-guardrails/references/five-rules.md` - rule philosophy. (archived skill, files still valid)
+- `skills/ft-build-christian-ai-guardrails/references/five-rules.md` - philosophy for the six unofficial guardrails; filename predates the sixth. (archived skill, files still valid)
 - `skills/ft-find-bible-developer-resources/references/bible-developer-resources.md` - Bible APIs, SDKs, MCP, concordance, commentary, datasets, and route.bible.
 
-`resources/FAITH_TOOLS_AI_STANDARDS.md` is the standalone resource version of the five rules. It may sound more article-like than skill references. Preserve that difference unless asked to consolidate.
+`resources/FAITH_TOOLS_AI_STANDARDS.md` is the standalone resource version of the six unofficial guardrails. It may sound more article-like than skill references. Preserve that difference unless asked to consolidate.
 
 ## Prompt Notes
 

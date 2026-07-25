@@ -54,9 +54,9 @@ For a description of the Christian doctrine, see [What is Christianity?](https:/
 
 ### 10. Does it meet the criteria for AI app submissions? (AI apps only)
 
-If your app includes any AI-generated content, especially user-initiated AI responses, there are additional expectations. These rules came from real experience: testing dozens of AI apps, attempting to build AI tools for Christians, praying through the tension of what AI should and shouldn't do in a faith context.
+If your app includes any AI-generated content, especially user-initiated AI responses, there are additional expectations. These guardrails came from real experience: testing dozens of AI apps, attempting to build AI tools for Christians, praying through the tension of what AI should and shouldn't do in a faith context.
 
-#### The 5 Unofficial Rules for AI Apps
+#### The 6 Unofficial Guardrails for AI Apps
 
 1. **AI output must be biblically accurate.** People want truth, not fluff. The Bible offers real wisdom about sin, salvation, and the human need for Jesus. We can't sacrifice biblical accuracy to make someone feel good.
 
@@ -64,9 +64,11 @@ If your app includes any AI-generated content, especially user-initiated AI resp
 
 3. **AI output must clearly identify as AI, not human.** AI is artificial. It is not alive. It is not sentient. It cannot worship God. Anthropomorphizing AI -- giving it human characteristics, letting it pretend to be a biblical figure, making it feel like a friend -- is dangerous territory. AI can construct a prayer for you to pray. It cannot pray for you. There is an enormous difference, and your app needs to make that clear.
 
-4. **AI output must not replace human relationships or spiritual practices.** "Therefore confess your sins to each other and pray for each other so that you may be healed" (James 5:16). Have you experienced the healing power of confessing a sin to a trusted brother or sister in Christ and being prayed over by them? Nothing artificial can replace that. AI is a tool. It should point people toward community, not away from it.
+4. **AI output must not replace human relationships or spiritual practices.** "Therefore confess your sins to each other and pray for each other so that you may be healed" (James 5:16). Have you experienced the healing power of confessing a sin to a trusted brother or sister in Christ and being prayed over by them? Nothing artificial can replace that. Study and preaching preparation are in scope too — serve the work, don't do it instead of the person. AI is a tool. It should point people toward community, not away from it.
 
 5. **AI output must balance grace and truth.** All truth and no grace feels like law and judgment without relationship. All grace and no truth feels like permission to sin without direction. Jesus was full of grace and truth. Your AI should reflect both.
+
+6. **AI output must not invent personal facts for the user to deliver as true.** When AI drafts a sermon, note, or devotion someone will sign and send, it must not invent biography — the user's or anyone else's — and hand it over as deliverable truth.
 
 For implementation guidance (Bible APIs, system prompts, MCP servers, RAG setup), see the [ft-build-christian-ai-guardrails skill](https://skills.sh/cameronapak/jstack/ft-build-christian-ai-guardrails).
 

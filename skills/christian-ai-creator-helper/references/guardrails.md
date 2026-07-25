@@ -1,6 +1,6 @@
 # AI Guardrails for Christian Apps
 
-This guide is for **builders** creating Christian AI applications. These guardrails help ensure your app meets the [5 unofficial rules](https://faith.tools/posts/unofficial-rules-for-ai-apps-for-christians) before you ever submit to faith.tools.
+This guide is for **builders** creating Christian AI applications. These guardrails help ensure your app meets the [6 unofficial guardrails](https://faith.tools/posts/unofficial-rules-for-ai-apps-for-christians) before you ever submit to faith.tools.
 
 ## Why Guardrails Matter
 
