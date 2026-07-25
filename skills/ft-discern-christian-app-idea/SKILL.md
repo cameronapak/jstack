@@ -96,7 +96,7 @@ Keep it short. Match the tone of the conversation.
 
 ## If the App Uses AI
 
-If the app includes AI-generated content, there are additional expectations. The 5 unofficial rules for AI apps are covered at a heart level in the selection criteria reference.
+If the app includes AI-generated content, there are additional expectations. The 6 unofficial guardrails for AI apps are covered at a heart level in the selection criteria reference.
 
 If the idea includes personalized spiritual guidance, suggested obedience steps, prayer responses, Bible interpretation, or journaling analysis, treat it as AI-sensitive. Pause to clarify whether suggestions are curated, human-authored, or AI-generated before continuing.
 
