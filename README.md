@@ -6,20 +6,22 @@ Over my time in the software industry, I've discovered we too easy default how w
 
 Questions to consider as you build:
 
-- What if there were a better way to work? 
+- What if there were a better way to work?
 - What if your tech stack and software approach was infused with the teachings and values of Jesus?
 
 The goal of this repo is to document what I learn into a series of bite-sized teachings, [skills](https://agentskills.io/home), and resources that can help aid in the software development lifecycle.
 
-This is imperfect and will improve over time. 
+This is imperfect and will improve over time.
 
-Contributions welcomed. 
+Contributions welcomed.
 
 ## Your app doesn't have to look vibe-coded
 
-I'm going to say something that may offend a few folks: **beautiful interfaces matter because people don't want to use ugly interfaces.** 
-
 A lot of pastors and followers of Jesus are building software for the first time with AI. That's a gift, and at the same time, it also means a lot of apps look the same: purple gradients, generic cards, and that "an agent made this" feel.
+
+**Beautiful interfaces matter because it shows people you put craft and care into what you created.**
+
+If your app looks like every other AI-created app, then someone may ride it off as generic and not give it a second glance.
 
 Here are some AI skills I recommend for UI / UX design and thinking:
 
@@ -39,20 +41,14 @@ npx skills add cameronapak/jstack
 
 This repo includes agent skills that package the Jesus-centered software guidance into reusable workflows:
 
-
-
 ### Alignment Skills
 
 - **[ft-discern-christian-app-idea](./skills/ft-discern-christian-app-idea/)** - Discern whether and how to build a Christian app through heart alignment, the Surrender-Scour-Synergize-Sow-Share framework, and the faith.tools selection criteria.
 - **[ft-evaluate-christian-ai-apps](./skills/ft-evaluate-christian-ai-apps/)** - Evaluate Christian AI apps against the 5 unofficial rules using a 20-question testing framework with scoring rubrics.
 
-
-
 ### Discovery Skills
 
 - **[ft-find-bible-developer-resources](./skills/ft-find-bible-developer-resources/)** - Find Bible APIs, SDKs, MCP servers, concordance tools, and licensing info for building Bible-aware applications.
-
-
 
 ### Development Skills
 
@@ -60,20 +56,15 @@ This repo includes agent skills that package the Jesus-centered software guidanc
 - **[ft-remove-ai-code-slop](./skills/ft-remove-ai-code-slop/)** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
 - **[ft-create-concise-pr](./skills/create-concise-pr/)** - Create or update a pull request with a concise, skimmable snapshot description — full loop from reading the diff to posting via `gh`.
 
-
-
 ### Additional Skills
 
 Here are additional resources that may be helpful.
 
 - I've benefited a ton from using [Matt Pocock's AI skills](https://github.com/mattpocock/skills/tree/main), especially the `/grill-me` and `/grill-with-docs` skills
 
-
-
 ## Free AI Christian Chatbot Prompts
 
 Here are some free and open-source AI Bible prompts for LLMs like ChatGPT, Claude, or your favorite agent.
 
 1. [Christian discipleship AI prompt](./prompts/christian-discipleship-ai-prompt.md)
-2. [Christian discipleship AI prompt (compact)](./prompts/christian-discipleship-ai-prompt-compact.md) *(This prompt is used on the [ChatGPT Bible Bot GPT](https://go.faith.tools/bible-bot))*
-
+2. [Christian discipleship AI prompt (compact)](./prompts/christian-discipleship-ai-prompt-compact.md) _(This prompt is used on the [ChatGPT Bible Bot GPT](https://go.faith.tools/bible-bot))_
