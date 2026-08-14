@@ -10,7 +10,7 @@ Key areas:
 
 - `README.md` - human-facing overview and entry points.
 - `prompts/` - copy-ready Christian AI prompts.
-- `skills/` - installable Skills CLI content, including `ft-build-christian-ai-guardrails`, `ft-evaluate-christian-ai-apps`, `ft-find-bible-developer-resources`, `ft-once-keep-agents-and-readme-fresh`, and `ft-remove-ai-code-slop`.
+- `skills/` - installable Skills CLI content, including `ft-build-christian-ai-guardrails`, `ft-evaluate-christian-ai-apps`, `ft-find-bible-developer-resources`, `ft-once-keep-agents-and-readme-fresh`, `ft-rightsize-agents-md`, `ft-remove-ai-code-slop`, and `ft-create-concise-pr`.
 - `resources/` - standalone teachings and reference docs.
 
 ## Repository Structure
@@ -47,7 +47,11 @@ Key areas:
     |   +-- references/
     +-- ft-once-keep-agents-and-readme-fresh/
     |   +-- SKILL.md
+    +-- ft-rightsize-agents-md/
+    |   +-- SKILL.md
     +-- ft-remove-ai-code-slop/
+    |   +-- SKILL.md
+    +-- ft-create-concise-pr/
         +-- SKILL.md
 ```
 

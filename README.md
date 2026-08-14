@@ -53,8 +53,9 @@ This repo includes agent skills that package the Jesus-centered software guidanc
 ### Development Skills
 
 - **[ft-once-keep-agents-and-readme-fresh](./skills/ft-once-keep-agents-and-readme-fresh/)** - One-time setup skill that adds Documentation Freshness rules to existing agent instruction files so agents keep `AGENTS.md` and `README.md` aligned with repo reality.
+- **[ft-rightsize-agents-md](./skills/ft-rightsize-agents-md/)** - Cut always-on `AGENTS.md` and `CLAUDE.md` down to identity, gotchas, guardrails, and router pointers.
 - **[ft-remove-ai-code-slop](./skills/ft-remove-ai-code-slop/)** - Cleanup skill for removing obvious AI-generated code slop from a branch diff while preserving the intended feature work.
-- **[ft-create-concise-pr](./skills/create-concise-pr/)** - Create or update a pull request with a concise, skimmable snapshot description — full loop from reading the diff to posting via `gh`.
+- **[ft-create-concise-pr](./skills/ft-create-concise-pr/)** - Create or update a pull request with a concise, skimmable snapshot description — full loop from reading the diff to posting via `gh`.
 
 ### Additional Skills
 
