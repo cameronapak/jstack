@@ -1,11 +1,14 @@
 ---
 name: ft-once-keep-agents-and-readme-fresh
-description: One-time setup skill that adds Documentation Freshness rules to existing AGENTS.md or CLAUDE.md files so agents keep AGENTS.md and README.md aligned with repo reality. Use when you want future coding-agent sessions to update agent and human docs when objective repo facts change.
+description: "Archived. Use ft-rightsize-agents-md instead."
 metadata:
   fruit: faithfulness
+  archived: true
 ---
 
 # Keep Agents And README Fresh
+
+Archived. Use `ft-rightsize-agents-md` instead.
 
 Install the canonical Documentation Freshness policy into existing agent instruction files. This is an additive, one-time setup task.
 
